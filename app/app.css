@@ -1313,6 +1313,9 @@ body.close .chat-footer {
   .chat-footer-icon-btn {
     display: flex;
   }
+  #chat-quick-run-btn {
+    display: none !important;
+  }
   /* 小屏时隐藏左下角固定的图标，只保留聊天区里的两个按钮 */
   .custom-toggle-btn,
   .sidebar-toggle {
