@@ -25,3 +25,65 @@ subscriptions:
     stage: A
     diff_threshold_pct: 15
   keyword_recall_mode: or
+  intent_profiles:
+    - tag: TPD
+      description: 两相爆轰方向论文检索
+      enabled: true
+      keywords:
+        - keyword: spray detonation
+          keyword_cn: 喷雾爆轰
+          query: detonation development in fuel sprays
+        - keyword: two-phase detonation
+          keyword_cn: 两相爆轰
+          query: mechanisms and characteristics of two-phase detonation
+        - keyword: detonation
+          keyword_cn: 爆轰
+          query: d
+        - keyword: gas-liquid detonation
+          keyword_cn: 气液两相爆轰
+          query: detonation waves in gas-liquid mixtures
+        - keyword: multiphase detonation
+          keyword_cn: 多相爆轰
+          query: multiphase flow detonation modeling
+        - keyword: detonation structure
+          keyword_cn: 爆轰结构
+          query: cellular structure of two-phase detonation waves
+        - keyword: detonation induction
+          keyword_cn: 爆轰诱导
+          query: induction zone and chemical kinetics in two-phase systems
+        - keyword: DDT
+          keyword_cn: 爆燃转爆轰
+          query: deflagration to detonation transition in two-phase mixtures
+        - keyword: droplet combustion
+          keyword_cn: 液滴燃烧
+          query: fuel droplet breakup and combustion in detonation waves
+        - keyword: multiphase flow
+          keyword_cn: 多相流
+          query: numerical simulation of multiphase reactive flows
+      intent_queries:
+        - query: numerical simulation of two phase detonation waves
+          query_cn: 两相爆轰波的数值模拟
+          enabled: true
+          source: manual
+          note: ''
+        - query: experimental study on gas liquid spray detonation
+          query_cn: 气液喷雾爆轰的实验研究
+          enabled: true
+          source: manual
+          note: ''
+        - query: propagation limits of multiphase detonation
+          query_cn: 多相爆轰的传播极限
+          enabled: true
+          source: manual
+          note: ''
+        - query: chemical kinetics in two phase detonation
+          query_cn: 两相爆轰中的化学动力学
+          enabled: true
+          source: manual
+          note: ''
+        - query: droplet evaporation and breakup in detonation
+          query_cn: 爆轰中的液滴蒸发与破碎
+          enabled: true
+          source: manual
+          note: ''
+      updated_at: '2026-03-10T08:38:38.219Z'
